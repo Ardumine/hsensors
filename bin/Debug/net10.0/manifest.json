@@ -1,0 +1,13 @@
+{
+  "name": "HCore.Packages.Sensor",
+  "version": "1.0.0",
+  "baseVersion": "1.0.0",
+  "description": "LIDAR + SLAM sensor stack for HCore",
+  "provides": {
+    "modules": [
+      { "name": "HCore.Packages.Sensor.Lidar", "interface": "HCore.Modules.Robotics.ILidar" },
+      { "name": "HCore.Packages.Sensor.Slam", "interface": "HCore.Packages.Sensor.Slam.ISlam" },
+      { "name": "HCore.Packages.Sensor.RemoteSlam", "interface": "HCore.Packages.Sensor.RemoteSlam.IRemoteSlam" }
+    ]
+  }
+}
